@@ -31,7 +31,7 @@ See [Triton Model Repository Documentation](https://github.com/triton-inference-
 mkdir -p triton/models/yolov7/1/
 touch triton/models/yolov7/config.pbtxt
 # Place model
-mv yolov7-fp16-1x8x8.engine triton-deploy/models/yolov7/1/model.plan
+mv yolov7-fp16-1x8x8.engine triton/models/yolov7/1/model.plan
 ```
 
 ## Model Configuration
@@ -49,7 +49,7 @@ Example repository:
 
 ```bash
 $ tree triton/
-triton-deploy/
+triton/
 └── models
     └── yolov7
         ├── 1
